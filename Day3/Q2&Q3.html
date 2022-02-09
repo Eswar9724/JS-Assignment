@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Day 3 Assignment: Question 2</title>
+</head>
+<body>
+    <script>
+        var english = 89, sanscerit = 78, maths = 95, physics = 87, chemistry = 80;
+        var sum = english + sanscerit + maths + physics + chemistry;
+        var perc = (sum / 500) * 100;
+
+        if (perc > 90) {
+            console.log("Candidate passed in O grade, with " + perc + " percentage.");
+        }
+        else if (perc > 75) {
+            console.log("Candidate passed in A grade, with " + perc + " percentage.");
+        }
+        else if (perc > 50) {
+            console.log("Candidate passed in B grade, with " + perc + " percentage.");
+        }
+        else if (perc > 40) {
+            console.log("Candidate passed in C grade, with " + perc + " percentage.");
+        }
+        else
+        {
+            console.log("Candidate Failed, with " + perc + " percentage.");
+        }
+
+
+    </script>
+</body>
+</html>
