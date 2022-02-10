@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    <title>Day 4 Assignment</title>
+</head>
+<body>
+    <script>
+        var employees = [
+            { name: "Eswar Sri Brahma", age: 24, position: "Manager", salary: 65000 },
+            { name: "Prameela Bhargavi", age: 21, position: "Assistant Manager", salary: 45000 },
+            { name: "Sai Charan", age: 24, position: "HR", salary: 40000 },
+            { name: "Jagadeesh", age: 25, position: "Project Associate", salary: 40000 },
+            { name: "Venkata Phalguna", age: 26, position: "Team Lead", salary: 50000 }
+        ]
+
+        console.log(" Using For loop.")
+
+        for (var i = 0; i < employees.length; i++)
+        {
+            console.log("Name: " + employees[i].name + "," + " Salary: " + employees[i].salary);
+        }
+
+        console.log("");
+
+        console.log(" Using ForEach loop.")
+        employees.forEach(function (a, i) {
+            console.log("Name: " + a.name + "," + " Salary: " + a.salary);
+        })
+    </script>
+</body>
+</html>
